@@ -1,0 +1,1 @@
+SELECT p.id_murid, m.name, p.status as pendidikan_terakhir, m.time_create , p.time_create as time_update from murid m, pendidikan p where m.id = p.id_murid 
